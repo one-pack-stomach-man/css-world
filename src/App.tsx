@@ -9,6 +9,7 @@ import Layout, { Content, Header } from 'antd/lib/layout/layout';
 import Sider from 'antd/lib/layout/Sider';
 
 import CssBattery from './Components/CssBattery';
+import SvgAr from './Components/Svg-ar';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,7 +19,8 @@ function App() {
       <Layout>
         <Sider style={{ backgroundColor: 'white' }}><Menus /></Sider>
         <Layout>
-          <Content><CssBattery /></Content>
+          {/* <Content><CssBattery /></Content> */}
+          <Content><SvgAr/></Content>
         </Layout>
       </Layout>
     </div>
