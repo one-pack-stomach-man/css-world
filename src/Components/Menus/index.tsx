@@ -24,7 +24,7 @@ function getItem(
 const items: MenuProps['items'] = [
   getItem('Navigation Three', 'sub4', <SettingOutlined />, [
     getItem('css battery', 'css battery'),
-    getItem('sgv', 'svg-ar'),
+    getItem('circle', 'svg-ar'),
   ]),
 ];
 
